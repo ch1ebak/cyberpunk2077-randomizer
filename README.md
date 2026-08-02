@@ -22,8 +22,8 @@ This script randomizes available lifepaths, endings, apartments, vehicles, opera
 
 The script can be used for vanilla and modded playthroughs.
 
-# Rules
-- Weapon, Vehicle, and OS should be ignored if affected by a Debuff.
+## Rules
+- Weapon, Vehicle, and OS should be ignored if affected by a Debuff (I'll fix this eventually).
 - Fists and Grenades are allowed until a Weapon is obtained, unless affected by a Debuff.
 - Only use the rolled Weapon, Vehicle, or OS unless forced by the game.
 - Everything should be obtained legitimately.
