@@ -16,9 +16,6 @@ OR
 bash <(curl -s https://raw.githubusercontent.com/ch1ebak/cyberpunk2077-randomizer/refs/heads/main/cyberpunk2077-randomizer)
 ```
 
-## Why?
-I have over 2000 hours in this game, yet I always find myself using the same apartments, cars, and weapons. I've created this script to force myself to play differently.
-
 ## What does this do?
 This script randomizes available lifepaths, endings, apartments, vehicles, operating systems, and weapons. Additionally, it provides a random debuff to make the game more interesting.
 
