@@ -22,11 +22,17 @@ This script randomizes available lifepaths, endings, apartments, vehicles, opera
 
 The script can be used for vanilla and modded playthroughs.
 
+# Rules
+- Weapon, Vehicle, and OS should be ignored if affected by a Debuff.
+- Fists and Grenades are allowed until a Weapon is obtained, unless affected by a Debuff.
+- Only use the rolled Weapon, Vehicle, or OS unless forced by the game.
+- Everything should be obtained legitimately.
+
 ## Debuffs.
 
 The following debuffs are available:
 - Metro Only: cannot use fast travel or vehicles. Walking, running, dashing/air dashing is permitted.
-- No Air Dash: cannot use dashing (in the Reflexes skill tree) and Reinforced Tendrons.
+- No Air Dash: cannot use dashing (in the Reflexes skill tree) and Reinforced Tendons.
 - No Car Stealing: it might take some time for you to obtain the rolled vehicle, so you might be tempted to steal cars. Rolling this option prohibits that.
 - No Cyberware: can't use any cyberware, unless forced by the game (pretty much only the Face cyberware). Cyberware installed by Viktor should be removed.
 - No Fists & Grenades: before you obtain the rolled weapon, you'll probably need to use fists and/or grenades. Rolling this option prohibits that.
@@ -45,4 +51,4 @@ Selecting "Modded" adds the following options:
 - [Oops_all_Smasher](https://www.nexusmods.com/cyberpunk2077/mods/14660)
 - Weapon Randomizer: [Weapon Shuffle (Randomizer)](https://www.nexusmods.com/cyberpunk2077/mods/15200) / [Random Weapon on Kill](https://www.nexusmods.com/cyberpunk2077/mods/16763) / [Weapon Randomizer](https://www.nexusmods.com/cyberpunk2077/mods/15255)
 
-Both Vanilla and Modded have "Homeless" as a debuff that can be rolled as Apartment. For modded playthroughs, you can use [Rent a Motel](https://www.nexusmods.com/cyberpunk2077/mods/21729); I also recommend installing [Eviction Notice](https://www.nexusmods.com/cyberpunk2077/mods/23187).
+Both Vanilla and Modded have "Homeless" as a debuff that can be rolled as Apartment. This prohibits using apartments (player or NPC) unless forced by the game (for example, the prologue cut scene). For modded playthroughs, you can use [Rent a Motel](https://www.nexusmods.com/cyberpunk2077/mods/21729); I also recommend installing [Eviction Notice](https://www.nexusmods.com/cyberpunk2077/mods/23187). If you have Dark Future installed, sleeping in cars is permitted.

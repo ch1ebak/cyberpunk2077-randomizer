@@ -18,16 +18,10 @@ echo -e "${RED}
 ▗▄▄▖  ▗▄▖ ▗▖  ▗▖▗▄▄▄   ▗▄▖ ▗▖  ▗▖▗▄▄▄▖▗▄▄▄▄▖▗▄▄▄▖▗▄▄▖                  
 ▐▌ ▐▌▐▌ ▐▌▐▛▚▖▐▌▐▌  █ ▐▌ ▐▌▐▛▚▞▜▌  █     ▗▞▘▐▌   ▐▌ ▐▌                 
 ▐▛▀▚▖▐▛▀▜▌▐▌ ▝▜▌▐▌  █ ▐▌ ▐▌▐▌  ▐▌  █   ▗▞▘  ▐▛▀▀▘▐▛▀▚▖                 
-▐▌ ▐▌▐▌ ▐▌▐▌  ▐▌▐▙▄▄▀ ▝▚▄▞▘▐▌  ▐▌▗▄█▄▖▐▙▄▄▄▖▐▙▄▄▖▐▌ ▐▌                 ${NC}
+▐▌ ▐▌▐▌ ▐▌▐▌  ▐▌▐▙▄▄▀ ▝▚▄▞▘▐▌  ▐▌▗▄█▄▖▐▙▄▄▄▖▐▙▄▄▖▐▌ ▐▌
+${NC}
 "
 
-# Rules
-echo -e "${BLUE}RULES${NC}
-- ${GREEN}Weapon${NC}, ${GREEN}Vehicle${NC}, and ${GREEN}OS${NC} should be ignored if affected by a ${GREEN}Debuff${NC}.
-- Fists and Grenades are allowed until a ${GREEN}Weapon${NC} is obtained, unless affected by a ${GREEN}Debuff${NC}.
-- Only use the rolled ${GREEN}Weapon${NC}, ${GREEN}Vehicle${NC}, or ${GREEN}OS${NC} unless forced by the game.
-- Everything should be obtained legitimately.
-"
 
 # Selections
 modded () {
