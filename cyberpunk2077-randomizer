@@ -60,23 +60,49 @@ modded () {
 				printf "%s\0" "$@" | shuf -z -n1 | tr -d '\0'
 		}
 		debuffs=(
-			"Always Wanted [MOD]"
-			"Enemies Multiplier [MOD]"
-			"Enemies of Night City [MOD]"
-			"Everything is Smasher [MOD]"
+			"Body must be upgraded, but only to level 14"
+			"Body needs to be upgraded to level 15 before any other skills can be upgraded"
+			"Can only spend attribute/perk points at levels 20/40/(50)60"
+			"Can only upgrade/install new cyberware at levels 20/40/(50)60"
+			"Cool must be upgraded, but only to level 14"
+			"Cool needs to be upgraded to level 15 before any other skills can be upgraded"
+			"Inteligence must be upgraded, but only to level 14"
+			"Inteligence needs to be upgraded to level 15 before any other skills can be upgraded"
 			"Metro Only"
-			"No Air Dashing"
 			"No Car Stealing"
 			"No Cyberware"
-			"No Fists & Grenades"
 			"No Spending Points"
 			"No Stealth"
 			"No Weapon"
+			"Reflexes must be upgraded, but only to level 14"
+			"Reflexes needs to be upgraded to level 15 before any other skills can be upgraded"
 			"Stealth Only"
-			"Weapon Randomizer [MOD]"
+			"Technical Ability must be upgraded, but only to level 14"
+			"Technical Ability needs to be upgraded to level 15 before any other skills can be upgraded"
+			"Used Cyberware Capacity cannot exceed half of the available capacity"
 		)
 		selecteddebuffs=$(select_random "${debuffs[@]}")
 		echo -e "${GREEN}Debuff:${NC} $selecteddebuffs"
+	}
+
+	mods () {
+		select_random() {
+				printf "%s\0" "$@" | shuf -z -n1 | tr -d '\0'
+		}
+		mods=(
+			"Always Wanted [MOD]"
+			"Combat Evolved, Street Sense, NC Remembers [MOD]"
+			"Dark Future"
+			"EconomyPunk"
+			"Enemies of Night City [MOD]"
+			"Enemy Multiplier [MOD]"
+			"Hardcore22V2"
+			"Shattered Chrome, Chrome Plating, Flesh And Chrome [MOD]"
+			"Vehicle/Life/Cyberware Insurance [MOD]"
+			"Weapon Randomizer [MOD]"
+		)
+		selectedmods=$(select_random "${mods[@]}")
+		echo -e "${GREEN}Mod:${NC} $selectedmods"
 	}
 
 	ending () {
@@ -418,6 +444,7 @@ modded () {
 You've rolled:${NC}"
 	lifepath
 	ending
+	mods
 	debuffs
 	apartment
 	vehicle
@@ -465,15 +492,26 @@ vanilla () {
 				printf "%s\0" "$@" | shuf -z -n1 | tr -d '\0'
 		}
 		debuffs=(
+			"Body can only be upgraded to level 14"
+			"Body needs to be upgraded to level 15 before any other skills can be upgraded"
+			"Can only spend attribute/perk points at levels 20/40/(50)60"
+			"Can only upgrade/install new cyberware at levels 20/40/(50)60"
+			"Cool can only be upgraded to level 14"
+			"Cool needs to be upgraded to level 15 before any other skills can be upgraded"
+			"Inteligence can only be upgraded to level 14"
+			"Inteligence needs to be upgraded to level 15 before any other skills can be upgraded"
 			"Metro Only"
-			"No Air Dashing"
 			"No Car Stealing"
 			"No Cyberware"
-			"No Fists & Grenades"
 			"No Spending Points"
 			"No Stealth"
 			"No Weapon"
+			"Reflexes can only be upgraded to level 14"
+			"Reflexes needs to be upgraded to level 15 before any other skills can be upgraded"
 			"Stealth Only"
+			"Technical Ability can only be upgraded to level 14"
+			"Technical Ability needs to be upgraded to level 15 before any other skills can be upgraded"
+			"Used Cyberware Capacity cannot exceed half of the available capacity"
 		)
 		selecteddebuffs=$(select_random "${debuffs[@]}")
 		echo -e "${GREEN}Debuff:${NC} $selecteddebuffs"
