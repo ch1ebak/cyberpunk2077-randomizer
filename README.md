@@ -1,5 +1,19 @@
 # Cyberpunk 2077 Randomizer
 
+![](https://raw.githubusercontent.com/ch1ebak/cyberpunk2077-randomizer/refs/heads/main/screenshot.png)
+
+# Usage
+> [!WARNING]
+> You need to use Bash to run the script.
+
+```
+git clone https://github.com/ch1ebak/cyberpunk2077-randomizer; cd cyberpunk2077-randomizer; ./cyberpunk2077-randomizer
+
+OR
+
+bash <(curl -s https://raw.githubusercontent.com/ch1ebak/cyberpunk2077-randomizer/refs/heads/main/cyberpunk2077-randomizer)
+```
+
 ## Why?
 I have over 2000 hours in this game, yet I always find myself using the same apartments, cars, and weapons. I've created this script to force myself to play differently.
 
@@ -23,7 +37,12 @@ The following debuffs are available:
 
 Selecting "Modded" adds the following options:
 - [Always Wanted](https://www.nexusmods.com/cyberpunk2077/mods/18168)
+- [Dark Future](https://www.nexusmods.com/cyberpunk2077/mods/16300)
+- [EconomyPunk](https://www.nexusmods.com/cyberpunk2077/mods/16952)
 - [Enemies of Night City](https://www.nexusmods.com/cyberpunk2077/mods/8467)
 - [Enemy Multiplier](https://www.nexusmods.com/cyberpunk2077/mods/27637)
+- [HARDCORE22V2](https://www.nexusmods.com/cyberpunk2077/mods/12569)
 - [Oops_all_Smasher](https://www.nexusmods.com/cyberpunk2077/mods/14660)
-- [Weapon Shuffle (Randomizer)](https://www.nexusmods.com/cyberpunk2077/mods/15200) / [Random Weapon on Kill](https://www.nexusmods.com/cyberpunk2077/mods/16763) / [Weapon Randomizer](https://www.nexusmods.com/cyberpunk2077/mods/15255)
+- Weapon Randomizer: [Weapon Shuffle (Randomizer)](https://www.nexusmods.com/cyberpunk2077/mods/15200) / [Random Weapon on Kill](https://www.nexusmods.com/cyberpunk2077/mods/16763) / [Weapon Randomizer](https://www.nexusmods.com/cyberpunk2077/mods/15255)
+
+Both Vanilla and Modded have "Homeless" as a debuff that can be rolled as Apartment. For modded playthroughs, you can use [Rent a Motel](https://www.nexusmods.com/cyberpunk2077/mods/21729); I also recommend installing [Eviction Notice](https://www.nexusmods.com/cyberpunk2077/mods/23187).
