@@ -8,9 +8,11 @@
 
 ```
 git clone https://github.com/ch1ebak/cyberpunk2077-randomizer; cd cyberpunk2077-randomizer; ./cyberpunk2077-randomizer
+```
 
 OR
 
+```
 bash <(curl -s https://raw.githubusercontent.com/ch1ebak/cyberpunk2077-randomizer/refs/heads/main/cyberpunk2077-randomizer)
 ```
 
