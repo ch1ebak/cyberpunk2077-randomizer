@@ -4,7 +4,7 @@
 
 # Usage
 > [!WARNING]
-> You need to use Bash to run the script.
+> You need to use Bash (and Git or Curl) to run the script.
 
 ```
 git clone https://github.com/ch1ebak/cyberpunk2077-randomizer; cd cyberpunk2077-randomizer; ./cyberpunk2077-randomizer

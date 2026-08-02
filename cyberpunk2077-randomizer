@@ -65,7 +65,7 @@ modded () {
 			"Enemies of Night City [MOD]"
 			"Everything is Smasher [MOD]"
 			"Metro Only"
-			"No Air Dash"
+			"No Air Dashing"
 			"No Car Stealing"
 			"No Cyberware"
 			"No Fists & Grenades"
@@ -100,21 +100,21 @@ modded () {
 				printf "%s\0" "$@" | shuf -z -n1 | tr -d '\0'
 		}
 		system=(
-			"Apogee"
 			"Arasaka Mk.1-5"
 			"BioDyne Berserk"
 			"Biotech Σ Mk.1-4"
-			"Canto Mk.6"
 			"Chrome Compressor"
 			"Dynalar Sandevistan"
-			"Falcon"
+			"Militech Apogee"
 			"Militech Berserk"
+			"Militech Canto Mk.6"
+			"Militech Falcon"
+			"Militech Paraline Mk.1-5"
 			"Moore Tech Berserk"
-			"Netdriver Mk.1"
-			"Paraline Mk.1-5"
+			"NetWatch Netdriver Mk.1"
+			"QianT Warp Dancer"
 			"Raven Microcyber Mk.1-3"
-			"Rippler Mk.1-5"
-			"Warp Dancer"
+			"Tetratronic Rippler Mk.1-5"
 			"Zetatech Berserk"
 			"Zetatech Sandevistan"
 		)
@@ -466,7 +466,7 @@ vanilla () {
 		}
 		debuffs=(
 			"Metro Only"
-			"No Air Dash"
+			"No Air Dashing"
 			"No Car Stealing"
 			"No Cyberware"
 			"No Fists & Grenades"
@@ -488,7 +488,7 @@ vanilla () {
 			"The Star"
 			"The Sun"
 			"Path of Least Resistance"
-			"Don't Fear the Ripper"
+			"Don't Fear the Reaper"
 			"The Tower"
 		)
 		selectedending=$(select_random "${ending[@]}")
@@ -500,21 +500,21 @@ vanilla () {
 				printf "%s\0" "$@" | shuf -z -n1 | tr -d '\0'
 		}
 		system=(
-			"Apogee"
 			"Arasaka Mk.1-5"
 			"BioDyne Berserk"
 			"Biotech Σ Mk.1-4"
-			"Canto Mk.6"
 			"Chrome Compressor"
 			"Dynalar Sandevistan"
-			"Falcon"
+			"Militech Apogee"
 			"Militech Berserk"
+			"Militech Canto Mk.6"
+			"Militech Falcon"
+			"Militech Paraline Mk.1-5"
 			"Moore Tech Berserk"
-			"Netdriver Mk.1"
-			"Paraline Mk.1-5"
+			"NetWatch Netdriver Mk.1"
+			"QianT Warp Dancer"
 			"Raven Microcyber Mk.1-3"
-			"Rippler Mk.1-5"
-			"Warp Dancer"
+			"Tetratronic Rippler Mk.1-5"
 			"Zetatech Berserk"
 			"Zetatech Sandevistan"
 		)
@@ -594,7 +594,6 @@ vanilla () {
 			"Thorton Colby CX410 Butte"
 			"Thorton Galena Gecko"
 			"Thorton Galena Locust"
-			"Thorton Galena Rattler"
 			"Thorton Galena G240"
 			"Thorton Galena GA32t"
 			"Thorton Mackinaw Beast"
